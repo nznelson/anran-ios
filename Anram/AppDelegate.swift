@@ -8,6 +8,8 @@
 
 import UIKit
 
+let appDel = UIApplication.sharedApplication().delegate as! AppDelegate
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        showLogin()
         return true
     }
 
@@ -42,5 +45,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+extension AppDelegate {
+    
+    func showStoryBoard(name: String){
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window!.rootViewController = (UIStoryboard(name: name, bundle: NSBundle.mainBundle()).instantiateInitialViewController()) as? UIViewController
+        window!.makeKeyAndVisible()
+    }
+    
+    func showMain(){
+        showStoryBoard("Main")
+    }
+    
+    func showLogin(){
+        showStoryBoard("Login")
+    }
 }
 

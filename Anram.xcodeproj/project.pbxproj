@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		525F603C1B7707A60080F4FF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F603B1B7707A60080F4FF /* API.swift */; };
+		525F60401B7709040080F4FF /* NSBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F603F1B7709040080F4FF /* NSBundleExtension.swift */; };
+		525F60421B77091C0080F4FF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F60411B77091C0080F4FF /* User.swift */; };
+		525F60441B7709360080F4FF /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F60431B7709360080F4FF /* Game.swift */; };
+		525F60461B770A430080F4FF /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F60451B770A430080F4FF /* Move.swift */; };
+		525F60481B770A840080F4FF /* Pile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F60471B770A840080F4FF /* Pile.swift */; };
+		525F604B1B770E2E0080F4FF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525F604A1B770E2E0080F4FF /* Login.storyboard */; };
+		525F604D1B770E900080F4FF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F604C1B770E900080F4FF /* LoginViewController.swift */; };
+		525F604F1B77130D0080F4FF /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F604E1B77130D0080F4FF /* UIViewControllerExtension.swift */; };
+		525F60521B771D950080F4FF /* MainTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F60511B771D950080F4FF /* MainTableTableViewController.swift */; };
+		525F60541B771DB20080F4FF /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F60531B771DB20080F4FF /* MainTableViewCell.swift */; };
+		525F60561B772D180080F4FF /* CreateGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F60551B772D180080F4FF /* CreateGameViewController.swift */; };
+		525F60581B772F470080F4FF /* CreateGameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F60571B772F470080F4FF /* CreateGameTableViewCell.swift */; };
+		525F605A1B7790A00080F4FF /* PlayGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F60591B7790A00080F4FF /* PlayGameViewController.swift */; };
+		525F605C1B7791EB0080F4FF /* PlayGameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F605B1B7791EB0080F4FF /* PlayGameTableViewCell.swift */; };
+		525F605E1B77AC680080F4FF /* NSUserDefaultHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F605D1B77AC680080F4FF /* NSUserDefaultHelper.swift */; };
+		525F60601B77B3530080F4FF /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F605F1B77B3530080F4FF /* LandingViewController.swift */; };
 		526534761B77069400A6BC66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526534751B77069400A6BC66 /* AppDelegate.swift */; };
 		526534781B77069400A6BC66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526534771B77069400A6BC66 /* ViewController.swift */; };
 		5265347B1B77069400A6BC66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526534791B77069400A6BC66 /* Main.storyboard */; };
 		5265347D1B77069400A6BC66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5265347C1B77069400A6BC66 /* Images.xcassets */; };
 		526534801B77069400A6BC66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5265347E1B77069400A6BC66 /* LaunchScreen.xib */; };
 		5265348C1B77069400A6BC66 /* AnramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5265348B1B77069400A6BC66 /* AnramTests.swift */; };
+		BD34974862BA66E0C7070EC6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EB57411CA6B425D9C663D6 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +44,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		319947C66DAAAFF8D8C78075 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		525F603B1B7707A60080F4FF /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		525F603F1B7709040080F4FF /* NSBundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBundleExtension.swift; sourceTree = "<group>"; };
+		525F60411B77091C0080F4FF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		525F60431B7709360080F4FF /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		525F60451B770A430080F4FF /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		525F60471B770A840080F4FF /* Pile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pile.swift; sourceTree = "<group>"; };
+		525F604A1B770E2E0080F4FF /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		525F604C1B770E900080F4FF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		525F604E1B77130D0080F4FF /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		525F60511B771D950080F4FF /* MainTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableTableViewController.swift; sourceTree = "<group>"; };
+		525F60531B771DB20080F4FF /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		525F60551B772D180080F4FF /* CreateGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGameViewController.swift; sourceTree = "<group>"; };
+		525F60571B772F470080F4FF /* CreateGameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGameTableViewCell.swift; sourceTree = "<group>"; };
+		525F60591B7790A00080F4FF /* PlayGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameViewController.swift; sourceTree = "<group>"; };
+		525F605B1B7791EB0080F4FF /* PlayGameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameTableViewCell.swift; sourceTree = "<group>"; };
+		525F605D1B77AC680080F4FF /* NSUserDefaultHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUserDefaultHelper.swift; sourceTree = "<group>"; };
+		525F605F1B77B3530080F4FF /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		526534701B77069400A6BC66 /* Anram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526534741B77069400A6BC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		526534751B77069400A6BC66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +72,8 @@
 		526534851B77069400A6BC66 /* AnramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5265348A1B77069400A6BC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5265348B1B77069400A6BC66 /* AnramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnramTests.swift; sourceTree = "<group>"; };
+		65EB57411CA6B425D9C663D6 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC466A518BE3D3F196916B86 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD34974862BA66E0C7070EC6 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +95,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		525F60391B77077F0080F4FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				525F60411B77091C0080F4FF /* User.swift */,
+				525F60431B7709360080F4FF /* Game.swift */,
+				525F60451B770A430080F4FF /* Move.swift */,
+				525F60471B770A840080F4FF /* Pile.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		525F603A1B7707970080F4FF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				525F603B1B7707A60080F4FF /* API.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		525F603D1B7708EB0080F4FF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				525F603E1B7708F40080F4FF /* Internal */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		525F603E1B7708F40080F4FF /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				525F603F1B7709040080F4FF /* NSBundleExtension.swift */,
+				525F604E1B77130D0080F4FF /* UIViewControllerExtension.swift */,
+				525F605D1B77AC680080F4FF /* NSUserDefaultHelper.swift */,
+			);
+			name = Internal;
+			sourceTree = "<group>";
+		};
+		525F60491B770E220080F4FF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				525F604A1B770E2E0080F4FF /* Login.storyboard */,
+				525F604C1B770E900080F4FF /* LoginViewController.swift */,
+				525F605F1B77B3530080F4FF /* LandingViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		525F60501B771D670080F4FF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				526534791B77069400A6BC66 /* Main.storyboard */,
+				525F60511B771D950080F4FF /* MainTableTableViewController.swift */,
+				525F60531B771DB20080F4FF /* MainTableViewCell.swift */,
+				525F60551B772D180080F4FF /* CreateGameViewController.swift */,
+				525F60571B772F470080F4FF /* CreateGameTableViewCell.swift */,
+				525F60591B7790A00080F4FF /* PlayGameViewController.swift */,
+				525F605B1B7791EB0080F4FF /* PlayGameTableViewCell.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		526534671B77069400A6BC66 = {
 			isa = PBXGroup;
 			children = (
 				526534721B77069400A6BC66 /* Anram */,
 				526534881B77069400A6BC66 /* AnramTests */,
 				526534711B77069400A6BC66 /* Products */,
+				9194C6672BAADCE14A7C2670 /* Pods */,
+				B67FEB9D24FED67CEEFAE205 /* Frameworks */,
+				525F603D1B7708EB0080F4FF /* Library */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +180,12 @@
 		526534721B77069400A6BC66 /* Anram */ = {
 			isa = PBXGroup;
 			children = (
+				525F60501B771D670080F4FF /* Main */,
+				525F60491B770E220080F4FF /* Login */,
+				525F603A1B7707970080F4FF /* API */,
+				525F60391B77077F0080F4FF /* Models */,
 				526534751B77069400A6BC66 /* AppDelegate.swift */,
 				526534771B77069400A6BC66 /* ViewController.swift */,
-				526534791B77069400A6BC66 /* Main.storyboard */,
 				5265347C1B77069400A6BC66 /* Images.xcassets */,
 				5265347E1B77069400A6BC66 /* LaunchScreen.xib */,
 				526534731B77069400A6BC66 /* Supporting Files */,
@@ -112,6 +218,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9194C6672BAADCE14A7C2670 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC466A518BE3D3F196916B86 /* Pods.debug.xcconfig */,
+				319947C66DAAAFF8D8C78075 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B67FEB9D24FED67CEEFAE205 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65EB57411CA6B425D9C663D6 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5265348F1B77069400A6BC66 /* Build configuration list for PBXNativeTarget "Anram" */;
 			buildPhases = (
+				C9BE4ED1043056EFD4F596E5 /* Check Pods Manifest.lock */,
 				5265346C1B77069400A6BC66 /* Sources */,
 				5265346D1B77069400A6BC66 /* Frameworks */,
 				5265346E1B77069400A6BC66 /* Resources */,
+				A77E3DF164AB3BFA2E257691 /* Embed Pods Frameworks */,
+				DC66F9FA8D9CBB6D4CEFFE5F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525F604B1B770E2E0080F4FF /* Login.storyboard in Resources */,
 				5265347B1B77069400A6BC66 /* Main.storyboard in Resources */,
 				526534801B77069400A6BC66 /* LaunchScreen.xib in Resources */,
 				5265347D1B77069400A6BC66 /* Images.xcassets in Resources */,
@@ -207,13 +334,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A77E3DF164AB3BFA2E257691 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9BE4ED1043056EFD4F596E5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC66F9FA8D9CBB6D4CEFFE5F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5265346C1B77069400A6BC66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525F604D1B770E900080F4FF /* LoginViewController.swift in Sources */,
+				525F60581B772F470080F4FF /* CreateGameTableViewCell.swift in Sources */,
+				525F605A1B7790A00080F4FF /* PlayGameViewController.swift in Sources */,
+				525F60561B772D180080F4FF /* CreateGameViewController.swift in Sources */,
+				525F60461B770A430080F4FF /* Move.swift in Sources */,
+				525F605E1B77AC680080F4FF /* NSUserDefaultHelper.swift in Sources */,
+				525F604F1B77130D0080F4FF /* UIViewControllerExtension.swift in Sources */,
+				525F60521B771D950080F4FF /* MainTableTableViewController.swift in Sources */,
 				526534781B77069400A6BC66 /* ViewController.swift in Sources */,
+				525F60441B7709360080F4FF /* Game.swift in Sources */,
+				525F605C1B7791EB0080F4FF /* PlayGameTableViewCell.swift in Sources */,
+				525F603C1B7707A60080F4FF /* API.swift in Sources */,
+				525F60401B7709040080F4FF /* NSBundleExtension.swift in Sources */,
+				525F60421B77091C0080F4FF /* User.swift in Sources */,
 				526534761B77069400A6BC66 /* AppDelegate.swift in Sources */,
+				525F60541B771DB20080F4FF /* MainTableViewCell.swift in Sources */,
+				525F60601B77B3530080F4FF /* LandingViewController.swift in Sources */,
+				525F60481B770A840080F4FF /* Pile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +531,7 @@
 		};
 		526534901B77069400A6BC66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC466A518BE3D3F196916B86 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Anram/Info.plist;
@@ -350,6 +542,7 @@
 		};
 		526534911B77069400A6BC66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 319947C66DAAAFF8D8C78075 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Anram/Info.plist;
@@ -411,6 +604,7 @@
 				526534911B77069400A6BC66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		526534921B77069400A6BC66 /* Build configuration list for PBXNativeTarget "AnramTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +613,7 @@
 				526534941B77069400A6BC66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
