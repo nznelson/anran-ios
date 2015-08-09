@@ -85,6 +85,7 @@ class PlayGameViewController: UIViewController {
             self.tableView.reloadData()
             self.doMoveButton()
             self.updateStatusView()
+            self.pilePosEdit = nil
         }
         
     }

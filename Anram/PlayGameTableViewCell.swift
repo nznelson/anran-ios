@@ -20,9 +20,11 @@ class PlayGameTableViewCell: UITableViewCell {
     @IBOutlet weak var minsPressed: UIButton!
     
     @IBAction func minusPressed(sender: AnyObject) {
+        if (vcRef.pilePosEdit == nil || vcRef.pilePosEdit == pile){
         amountLabel.text = String(max(amountLabel.text!.toInt()! - 1, 0))
         vcRef.taken = vcRef.taken + 1
         vcRef.pilePosEdit = pile
+        }
     }
     
     override func awakeFromNib() {
