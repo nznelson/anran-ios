@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		526534761B77069400A6BC66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526534751B77069400A6BC66 /* AppDelegate.swift */; };
+		526534781B77069400A6BC66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526534771B77069400A6BC66 /* ViewController.swift */; };
+		5265347B1B77069400A6BC66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526534791B77069400A6BC66 /* Main.storyboard */; };
+		5265347D1B77069400A6BC66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5265347C1B77069400A6BC66 /* Images.xcassets */; };
+		526534801B77069400A6BC66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5265347E1B77069400A6BC66 /* LaunchScreen.xib */; };
+		5265348C1B77069400A6BC66 /* AnramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5265348B1B77069400A6BC66 /* AnramTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		526534861B77069400A6BC66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526534681B77069400A6BC66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5265346F1B77069400A6BC66;
+			remoteInfo = Anram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		526534701B77069400A6BC66 /* Anram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		526534741B77069400A6BC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526534751B77069400A6BC66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		526534771B77069400A6BC66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5265347A1B77069400A6BC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5265347C1B77069400A6BC66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5265347F1B77069400A6BC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		526534851B77069400A6BC66 /* AnramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5265348A1B77069400A6BC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5265348B1B77069400A6BC66 /* AnramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnramTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5265346D1B77069400A6BC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526534821B77069400A6BC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526534671B77069400A6BC66 = {
+			isa = PBXGroup;
+			children = (
+				526534721B77069400A6BC66 /* Anram */,
+				526534881B77069400A6BC66 /* AnramTests */,
+				526534711B77069400A6BC66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		526534711B77069400A6BC66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526534701B77069400A6BC66 /* Anram.app */,
+				526534851B77069400A6BC66 /* AnramTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		526534721B77069400A6BC66 /* Anram */ = {
+			isa = PBXGroup;
+			children = (
+				526534751B77069400A6BC66 /* AppDelegate.swift */,
+				526534771B77069400A6BC66 /* ViewController.swift */,
+				526534791B77069400A6BC66 /* Main.storyboard */,
+				5265347C1B77069400A6BC66 /* Images.xcassets */,
+				5265347E1B77069400A6BC66 /* LaunchScreen.xib */,
+				526534731B77069400A6BC66 /* Supporting Files */,
+			);
+			path = Anram;
+			sourceTree = "<group>";
+		};
+		526534731B77069400A6BC66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				526534741B77069400A6BC66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		526534881B77069400A6BC66 /* AnramTests */ = {
+			isa = PBXGroup;
+			children = (
+				5265348B1B77069400A6BC66 /* AnramTests.swift */,
+				526534891B77069400A6BC66 /* Supporting Files */,
+			);
+			path = AnramTests;
+			sourceTree = "<group>";
+		};
+		526534891B77069400A6BC66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5265348A1B77069400A6BC66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5265346F1B77069400A6BC66 /* Anram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5265348F1B77069400A6BC66 /* Build configuration list for PBXNativeTarget "Anram" */;
+			buildPhases = (
+				5265346C1B77069400A6BC66 /* Sources */,
+				5265346D1B77069400A6BC66 /* Frameworks */,
+				5265346E1B77069400A6BC66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anram;
+			productName = Anram;
+			productReference = 526534701B77069400A6BC66 /* Anram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		526534841B77069400A6BC66 /* AnramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526534921B77069400A6BC66 /* Build configuration list for PBXNativeTarget "AnramTests" */;
+			buildPhases = (
+				526534811B77069400A6BC66 /* Sources */,
+				526534821B77069400A6BC66 /* Frameworks */,
+				526534831B77069400A6BC66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526534871B77069400A6BC66 /* PBXTargetDependency */,
+			);
+			name = AnramTests;
+			productName = AnramTests;
+			productReference = 526534851B77069400A6BC66 /* AnramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		526534681B77069400A6BC66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Nelson Shaw";
+				TargetAttributes = {
+					5265346F1B77069400A6BC66 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					526534841B77069400A6BC66 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5265346F1B77069400A6BC66;
+					};
+				};
+			};
+			buildConfigurationList = 5265346B1B77069400A6BC66 /* Build configuration list for PBXProject "Anram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 526534671B77069400A6BC66;
+			productRefGroup = 526534711B77069400A6BC66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5265346F1B77069400A6BC66 /* Anram */,
+				526534841B77069400A6BC66 /* AnramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5265346E1B77069400A6BC66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5265347B1B77069400A6BC66 /* Main.storyboard in Resources */,
+				526534801B77069400A6BC66 /* LaunchScreen.xib in Resources */,
+				5265347D1B77069400A6BC66 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526534831B77069400A6BC66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5265346C1B77069400A6BC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526534781B77069400A6BC66 /* ViewController.swift in Sources */,
+				526534761B77069400A6BC66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526534811B77069400A6BC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5265348C1B77069400A6BC66 /* AnramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		526534871B77069400A6BC66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5265346F1B77069400A6BC66 /* Anram */;
+			targetProxy = 526534861B77069400A6BC66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		526534791B77069400A6BC66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5265347A1B77069400A6BC66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5265347E1B77069400A6BC66 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5265347F1B77069400A6BC66 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5265348D1B77069400A6BC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5265348E1B77069400A6BC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526534901B77069400A6BC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Anram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		526534911B77069400A6BC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Anram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		526534931B77069400A6BC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anram.app/Anram";
+			};
+			name = Debug;
+		};
+		526534941B77069400A6BC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anram.app/Anram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5265346B1B77069400A6BC66 /* Build configuration list for PBXProject "Anram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5265348D1B77069400A6BC66 /* Debug */,
+				5265348E1B77069400A6BC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5265348F1B77069400A6BC66 /* Build configuration list for PBXNativeTarget "Anram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526534901B77069400A6BC66 /* Debug */,
+				526534911B77069400A6BC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		526534921B77069400A6BC66 /* Build configuration list for PBXNativeTarget "AnramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526534931B77069400A6BC66 /* Debug */,
+				526534941B77069400A6BC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 526534681B77069400A6BC66 /* Project object */;
+}
